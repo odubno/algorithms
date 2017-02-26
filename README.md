@@ -1,2 +1,2 @@
 # Algorithms
-Documenting Of Popular Algorithms
+Documenting Popular Algorithms
