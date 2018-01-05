@@ -90,9 +90,19 @@ def anagram4(s1, s2):
     # Otherwise they're anagrams
     return True
 
+def anagram5(s1,s2):
+
+    # Remove spaces and lowercase letters
+    s1 = s1.replace(' ','').lower()
+    s2 = s2.replace(' ','').lower()
+
+    # Return boolean for sorted match.
+    return sorted(s1) == sorted(s2)
+
 anagram3('public relations is great', 'Crap Built on lies is great')
 # %timeit anagram('public relations is great', 'Crap Built on lies is great')
 # %timeit anagram2('public relations is great', 'Crap Built on lies is great')
 # %timeit anagram3('public relations is great', 'Crap Built on lies is great')
 # %timeit anagram4('public relations is great', 'Crap Built on lies is great')
+# %timeit anagram5('public relations is great', 'Crap Built on lies is great')
 pass
