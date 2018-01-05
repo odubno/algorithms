@@ -45,9 +45,6 @@ def pair_sum2(arr, k):
             output += 1
     return output
 
-cProfile.run('pair_sum([1,9,2,8,3,7,4,6,5,5,13,14,11,13,-1], 10)', sort='time')
-cProfile.run('pair_sum2([1,9,2,8,3,7,4,6,5,5,13,14,11,13,-1], 10)', sort='time')
-
 # print pair_sum2([1,9,2,8,3,7,4,6,5,5,13,14,11,13,-1], 10) == 6
 # print pair_sum2([1,2,3,1], 3) == 1
 # print pair_sum2([1,2,3,2], 4) == 2
