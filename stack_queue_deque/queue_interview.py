@@ -12,7 +12,7 @@ class Queue:
         return self.items == []
 
     def enqueue(self, item):
-        # items are added at one end; in this case in the beginining
+        # items are added at one end; in this case in the beginning
         self.items.insert(0, item)
 
     def dequeue(self):
