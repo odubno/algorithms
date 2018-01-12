@@ -66,7 +66,10 @@ func_quadratic(lst)
 - allow a great variety of time update operations, including insertions and deletions
 - header and trailer for each node. eg guards.
 
-
+## Recursion
+Two main instances of recursion:
+- Function makes one or more calls to itself.
+- Data structure uses smaller instances of the exact same type of data structure.
 
 
 
