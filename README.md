@@ -71,6 +71,10 @@ Two main instances of recursion:
 - Function makes one or more calls to itself.
 - Data structure uses smaller instances of the exact same type of data structure.
 
+## Memoization
+- This method of recursion keeps, 'remembers', the cache of results from the function.
+- The function returns the remembered result.
 
+Memoization effectively refers to remembering ("memoization" -> "memorandum" -> to be remembered) results of method calls based on the method inputs and then returning the remembered result rather than computing the result again. You can think of it as a cache for method results. We'll use this in some of the interview problems as improved versions of a purely recursive solution. 
 
-
+We are able to increase the efficiency of the function by ,"A LOT", when remembering the results.
