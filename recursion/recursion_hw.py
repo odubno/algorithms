@@ -48,6 +48,8 @@ def word_split(phrase, list_of_words, output=None, word=''):
     :param list_of_words:
     :param output:
     :return:
+    Split a continuous phrase with no spaces into a individual words.
+    Use a the list of provided words to match against.
     Eg. function word_split('ilovedogsJohn', ['i', 'am', 'a', 'dogs', 'lover', 'love', 'John'])
     should return ['i', 'love', 'dogs', 'John']
     """
@@ -67,6 +69,8 @@ def word_split2(phrase, list_of_words, output=None):
     :param list_of_words:
     :param output:
     :return:
+    Split a continuous phrase with no spaces into a individual words.
+    Use a the list of provided words to match against.
     Eg. function word_split('ilovedogsJohn', ['i', 'am', 'a', 'dogs', 'lover', 'love', 'John'])
     should return ['i', 'love', 'dogs', 'John']
     """
@@ -85,6 +89,8 @@ def word_split3(phrase, list_of_words, output=None, count=0):
     :param list_of_words:
     :param output:
     :return:
+    Split a continuous phrase with no spaces into a individual words.
+    Use a the list of provided words to match against.
     Eg. function word_split('ilovedogsJohn', ['i', 'am', 'a', 'dogs', 'lover', 'love', 'John'])
     should return ['i', 'love', 'dogs', 'John']
     """
