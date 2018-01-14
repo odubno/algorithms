@@ -60,6 +60,17 @@ def rev_word3(s):
     # Join the reversed words
     return " ".join(reversed(words))
 
+def rev_words4(s):
+    """
+    :param s:
+    :return:
+    Recursively reverse the input string
+    """
+    # Base Case
+    if not s:
+        return ''
+    # Recursive Case
+    return reverse(s[1:]) + ' ' + s[0]
 
 rev_word2('Hi John,   are you ready to go?')
 
